@@ -6,7 +6,7 @@ An analytics dashboard for webmention.io data.
 
 ## Features
 
-* Group data by month
+* Group data by month looks good
 * Overview of incoming webmentions by day
 * Support for 5 types of webmentions (likes, replies, reposts, mentions, bookmarks)
 * Top sources sending webmentions to your site
@@ -26,7 +26,7 @@ Things you may need:
 
 The easiest way to get started is to fork this repo and deploy it to a new Netlify site:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/webmention-analytics) 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/maxboeck/webmention-analytics)
 
 ### 1. Edit Settings
 
@@ -43,8 +43,3 @@ You can configure Github to periodically trigger a new build of the dashboard, f
 `https://api.netlify.com/build_hooks/12345f83c31475e31000`
 
 Copy it to your clipboard. Then go to your forked repository's settings page and add it as a new [repository secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) called `NETLIFY_CRON_BUILD_HOOK`.
-
-
-
-
-
